@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+ .button
+ {
+   margin-left: 30%;
+ }body{
+    background-color: rgb(230, 50, 9);
+  }
+  .a111{
+    width:100%;
+    height:80%;
+  }
+  .b111{
+    width:12%;
+  }
+</style>
+</head>
+<body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCs0xKOsbWB2C7GTeKaP3mxg" frameborder="0" allowfullscreen></iframe>
+<p id="p1"> </p>
+
+<script>
+function TXT(val) 
+		{ 
+			document.getElementById("p1").innerHTML=document.getElementById("txt").value ;
+		} 
+</script>
+<input type="text" id="txt" >
+<input type="button" value="send" onclick="TXT()"/> 
+
+</body>
+    </html>
